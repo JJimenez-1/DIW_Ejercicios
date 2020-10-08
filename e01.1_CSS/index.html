@@ -5,31 +5,34 @@
     <meta charset="UTF8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e01.1_CSS</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div>
+    <div class="div cabezera">
        <h1>Computer School</h1>
         <p>Best computer school ever!</p>
     </div>
 
-    <div>
+    <div class="div links">
         <ul>
-            <li><a href="link1">LINK 1</a></li>
-            <li><a href="link2">LINK 2</a></li>
-            <li><a href="link3">LINK 3</a></li>
-            <li><a href="link4">LINK 4</a></li>
+            <li><a href="link">LINK 1</a></li>
+            <li><a href="link">LINK 2</a></li>
+            <li><a href="link">LINK 3</a></li>
+            <li><a href="link">LINK 4</a></li>
         </ul>
     </div>
-
-    <div>
+    <div class="div pattern"></div>
+    <div class="div fotofrontal">
+        <img src="imatges/fotofrontal.jpg" alt="">
+    </div>
+    <div class="div grade">
         <h2>The Grades</h2>
         <table>
             <tr>
-                <th>Nom</th>
-                <th>NIF</th>
-                <th>Nota</th>
+                <th class="datos">Nom</th>
+                <th class="datos">NIF</th>
+                <th class="datos">Nota</th>
             </tr>
             <tr>
                 <th>Maria</th>
@@ -53,27 +56,27 @@
             </tr>
         </table>
     </div>
-    <div>
-        <div>
+    <div class="div imagenes">
+        <div class="column">
             <img src="imatges/javascript.png" style="width:100%">
             <p>Javascript</p>
         </div>
-        <div>
-            <img src="imatges/angualar.png" style="width:100%">
+        <div class="column">
+            <img src="imatges/angular.png" style="width:100%">
             <p>Angular</p>
         </div>
-        <div>
+        <div class="column">
             <img src="imatges/php.png" style="width:100%">
             <p>PHP</p>
         </div>
-        <div>
+        <div class="column">
             <img src="imatges/html5.png" style="width:100%">
             <p>HTML5</p>
         </div>
     </div>
-    <div>
-        <span>@cifpfbmoll.eu</span>
-        <span>DESIGN OF WEB INTERFACES</span>
+    <div class="footer">
+        <span class="dominio">@cifpfbmoll.eu</span>
+        <span class="estudio">DESIGN OF WEB INTERFACES</span>
     </div>
 </body>
 
